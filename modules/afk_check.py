@@ -25,8 +25,8 @@ DEMISE_AFK_GUMP_IDS = [
 GUMP_DEBUG_LOG = "/Scripts/gump-debug.txt"
 RESPOND_AFK_GUMP = True
 
-AFK_ANSWER_API_URL = "http://150.136.251.245:5000/resolveAFKGump"
-##AFK_ANSWER_API_URL = "https://uo-api.herokuapp.com/resolve-afk-gump"
+# AFK_ANSWER_API_URL = "http://150.136.251.245:5000/resolveAFKGump"
+AFK_ANSWER_API_URL = "https://uo-api.herokuapp.com/resolve-afk-gump"
 
 
 def is_afk_gump():
